@@ -1,0 +1,9 @@
+1. install jenkins
+2. install git
+3. connect jenkins & git
+	- generate ssh key
+	- git repository => pub-key
+	- jenkins project => register git repository & private key
+4. github webhook
+	- git hub repository => settings add webhook
+	- jenkins => install Manage Plugins & config build Triggers
